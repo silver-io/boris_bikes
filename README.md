@@ -15,7 +15,6 @@ As a user we should be able to rent a bike from one station and return it to ano
 ```sh
 
 ```
-- Play around with the classes, send bikes around in IRB
 
 ## How to run tests
 

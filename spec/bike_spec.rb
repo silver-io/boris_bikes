@@ -1,4 +1,3 @@
-#we're describing the functionality of a specific class, Bike
 require 'bike'
 describe Bike do
 
@@ -19,4 +18,4 @@ describe Bike do
 		expect(bike).not_to be_broken
 	end
 
-end		
+end
