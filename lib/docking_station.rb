@@ -31,9 +31,6 @@ class DockingStation
 
 
 
-
-
-
 	# include BikeContainer
 
 	# def initialize(options = {})
