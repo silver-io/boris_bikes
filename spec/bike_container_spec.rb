@@ -31,25 +31,13 @@ describe BikeContainer do
 
   it "should know when it's full" do
     expect(holder).not_to be_full
-    fill_holder holder 
+    fill_holder holder
     expect(holder).to be_full
   end
 
   it "should not accept a bike if it is full" do
     fill_holder holder
     expect(lambda { holder.dock(bike) }).to raise_error(RuntimeError)
-  end
-
-end
-
-require 'docking_station'
-
-describe DockingStation do
-
-  let(:station) { DockingStation.new(:capacity => 123) }
-
-  it "should allow setting default capacity on initialising" do
-    expect(station.capacity).to eq(123)
   end
 
 end
